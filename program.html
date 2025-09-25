@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapúa Malayan Colleges Mindanao</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div class="nav-container">
+        <div class="logo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS86OZgq4hP9l5n0pcPbkipcc-mMt5etWxlxA&s" alt="Mapúa Malayan Colleges Mindanao Logo">
+            
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="insert html file here">Admissions</a></li>
+                <li><a href="insert html file here">Programs</a></li>
+                <li><a href="insert html file here">Offices</a></li>
+                <li><a href="insert html file here">Student Life</a></li>
+                <li><a href="insert html file here">News</a></li>
+                <li><a href="insert html file here">Sustainability</a></li>
+            </ul>
+        </nav>
+        <div class="nav-buttons">
+            <a href="insert html file here" class="btn btn-red">Ask Us</a>
+            <a href="insert html file here" class="btn btn-blue">Apply Now</a>
+        </div>
+    </div>
+
+
+    <div class="hero-section">
+        <div class="hero-content">
+            <h2>About MMCM FLUX</h2>
+            <p>The hybrid flexible course format offers in-person, synchronous, or asynchronous online classes.</p>
+            <a href="#" class="read-more-btn">Read More</a>
+        </div>
+    </div>
+
+
+
+<div class="particles"></div>
+
+<script>
+  const particlesContainer = document.querySelector('.particles');
+
+  // generate 50 particles
+  for (let i = 0; i < 50; i++) {
+    const particle = document.createElement('div');
+    particle.classList.add('particle');
+
+    // random left position (0–100%)
+    particle.style.left = `${Math.random() * 100}%`;
+
+    // random size (3–8px)
+    const size = Math.random() * 5 + 3;
+    particle.style.width = `${size}px`;
+    particle.style.height = `${size}px`;
+
+    // random animation delay (0–8s)
+    particle.style.animationDelay = `${Math.random() * 8}s`;
+
+    // random animation duration (5–10s, different speeds)
+    particle.style.animationDuration = `${Math.random() * 5 + 5}s`;
+
+    particlesContainer.appendChild(particle);
+  }
+</script>
+
+
+</body>
+</html>
