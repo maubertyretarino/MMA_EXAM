@@ -1,74 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mapúa Malayan Colleges Mindanao</title>
-    <link rel="stylesheet" href="styles.css">
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SPC</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="nav-container">
-        <div class="logo">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS86OZgq4hP9l5n0pcPbkipcc-mMt5etWxlxA&s" alt="Mapúa Malayan Colleges Mindanao Logo">
-            
-        </div>
-        <nav class="main-nav">
-            <ul>
-                <li><a href="index.html">About</a></li>
-                <li><a href="visual.html">Visual Trends Page</a></li>
-                <li><a href="index.html">indexs</a></li>
-                <li><a href="index.html">Offices</a></li>
-                <li><a href="index.html">Student Life</a></li>
-                <li><a href="index.html">News</a></li>
-                <li><a href="index.html">Sustainability</a></li>
-            </ul>
-        </nav>
-        <div class="nav-buttons">
-            <a href="insert html file here" class="btn btn-red">Ask Us</a>
-            <a href="insert html file here" class="btn btn-blue">Apply Now</a>
-        </div>
+
+  <!-- Navigation -->
+  <div class="nav-container">
+    <nav class="main-nav">
+      <ul>
+        <li><a href="https://www.mentimeter.com/app/presentation/al6obdm2dyzry6coxatyzmvt8xide8om/edit?question=soui8qgyvv84" target="_blank">Effective communication</a></li>
+        <li><a href="https://www.mentimeter.com/app/presentation/alb5vvrsy766ywcrzayrxpsquoi67mu1/present?question=qroyjmkd17gv" target="_blank">Teleophone and email Etiquette</a></li>
+        <li><a href="#" target="_blank" >Time management</a></li>
+        <li><a href="#" target="_blank" >Document Handling</a></li>
+      </ul>
+    </nav>
+    <div class="nav-buttons">
+      <a href="https://codepen.io/iamtheonejob/full/Qwyrddd" target="_blank" class="btn btn-primary">Ask Us</a>
+      <a href="#" class="btn btn-secondary">Apply Now</a>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <div class="hero-section">
+    <div class="hero-content">
+      <h1>Grace Under Pressure</h1>
+      <p>Overview of key skills: Communication, Time Management, and Professional Etiquette</p>
+    </div>
+  </div>
+
+  <!-- Program Overview Cards -->
+  <div class="program-container">
+
+    <div class="program-card">
+      <h2>Effective Communication</h2>
+      <p>Master the 7 C's of communication and overcome barriers in academic settings.</p>
     </div>
 
-
-    <div class="hero-section">
-        <div class="hero-content">
-            <h2>About A302 </h2>
-            <p>change ko to</p>
-            <a href="#" class="read-more-btn">Read More</a>
-        </div>
+    <div class="program-card">
+      <h2>Telephone & Email Etiquette</h2>
+      <p>Learn professional ways to interact via calls and emails.</p>
     </div>
 
+    <div class="program-card">
+      <h2>Time Management & Multitasking</h2>
+      <p>Prioritize tasks, balance responsibilities, and improve productivity.</p>
+    </div>
 
+    <div class="program-card">
+      <h2>Document Handling & Confidentiality</h2>
+      <p>Understand confidentiality and proper document management practices.</p>
+    </div>
 
-<div class="particles"></div>
+  </div>
 
-<script>
-  const particlesContainer = document.querySelector('.particles');
+  <!-- Particles -->
+  <div class="particles"></div>
 
-  // generate 50 particles
-  for (let i = 0; i < 50; i++) {
-    const particle = document.createElement('div');
-    particle.classList.add('particle');
-
-    // random left position (0–100%)
-    particle.style.left = `${Math.random() * 100}%`;
-
-    // random size (3–8px)
-    const size = Math.random() * 5 + 3;
-    particle.style.width = `${size}px`;
-    particle.style.height = `${size}px`;
-
-    // random animation delay (0–8s)
-    particle.style.animationDelay = `${Math.random() * 8}s`;
-
-    // random animation duration (5–10s, different speeds)
-    particle.style.animationDuration = `${Math.random() * 5 + 5}s`;
-
-    particlesContainer.appendChild(particle);
-  }
-</script>
-
+  <script>
+    const particlesContainer = document.querySelector('.particles');
+    for (let i = 0; i < 50; i++) {
+      const particle = document.createElement('div');
+      particle.classList.add('particle');
+      particle.style.left = `${Math.random() * 100}%`;
+      const size = Math.random() * 5 + 3;
+      particle.style.width = `${size}px`;
+      particle.style.height = `${size}px`;
+      particle.style.animationDelay = `${Math.random() * 8}s`;
+      particle.style.animationDuration = `${Math.random() * 5 + 5}s`;
+      particlesContainer.appendChild(particle);
+    }
+  </script>
 
 </body>
 </html>
